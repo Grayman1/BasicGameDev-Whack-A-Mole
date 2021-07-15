@@ -1,12 +1,11 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-//  flex-flow: row wrap;
-//  justify-content: center;
-//  align-content: center;
-  width: 606px;
-  height: 606px;
-
+  width: 616px;
+  height: 616px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .square {
@@ -18,6 +17,9 @@
 
 
 .mole {
-  background-image: url('mole.jpg');
+  background-image: url(images/mole.jpg);
   background-size: cover;
+//  height: 200px;
+//  width: 200px;
+
 }
